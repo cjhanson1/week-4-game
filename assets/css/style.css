@@ -1,0 +1,48 @@
+body {
+	box-sizing: border-box;
+	background-image: url("../images/rainbow.jpg");
+	font-family: 'Rakkas', cursive; 
+}
+h1 {
+	font-size: 50pt;
+	color:white;
+	text-align: center;
+}
+.crystals {
+	text-align: center;
+	background-color: white;
+	display:inline-block;
+	width:40%;
+	margin:0 30%;
+	padding:20px 0;
+	border:solid 1px #eee;
+}
+p {
+	width: 60%;
+	text-align: center;
+	margin:0 20%;
+}
+.targetNumber {
+	text-align: center;
+	margin:20px 0;
+}
+#randomNumber {
+	font-size: 40pt;
+	margin:0 auto;
+}
+.yourNumber {
+	text-align: center;
+	margin:20px 0;
+}
+#totalScore {
+	font-size: 40pt;
+	margin:0 auto;
+}
+.tally {
+	text-align: center;
+}
+#winsAndLosses,
+#reset {
+	text-align: center;
+	font-size: 30pt;
+}
